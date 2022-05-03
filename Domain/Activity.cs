@@ -8,6 +8,7 @@ namespace Domain
     public class Activity
     {
         public Guid Id { get; set; }
+        
         public string Method { get; set; }
         public string Description { get; set; }
         public string Status { get; set; }
