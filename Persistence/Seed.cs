@@ -16,52 +16,38 @@ namespace Persistence
             {
                 new Activity
                 {
-                    Method = "Visa",
-                    Description = "Credit card payment",
+                    method = "Visa",
                     Status = "Enabled",
-                    District = "Rruga Enver Maloku",
+                    Description = "Card Payment",
+                    District = "Rr. Enver Maloku",
                 },
                 new Activity
                 {
-                    Method = "Mastercard",
-                    Description = "Credit card payment",
+                    method = "MasterCard",
                     Status = "Enabled",
-                    District = "Rruga Qamil Bala",
+                    Description = "Card Payment",
+                    District = "Rr. Qamil Bala",
                 },
                 new Activity
                 {
-                    Method = "Visa Electron",
-                    Description = "Credit card payment",
+                    method = "VisaElectron",
                     Status = "Disabled",
-                    District = "Rruga Mark Isaku",
+                    Description = "Card Payment",
+                    District = "Rr. Mark Isaku",
                 },
                 new Activity
                 {
-                    Method = "Delta",
-                    Description = "Credit card payment",
+                    method = "Delta",
                     Status = "Disabled",
-                    District = "Rruga Fehmi Agani",
+                    Description = "Card Payment",
+                    District = "Rr. Bill Clinton",
                 },
                 new Activity
                 {
-                    Method = "American Express",
-                    Description = "Credit card payment",
+                    method = "American Express",
                     Status = "Disabled",
-                    District = "Rruga Tirana",
-                },
-                new Activity
-                {
-                    Method = "Paypal",
-                    Description = "Through paypal account",
-                    Status = "Enabled",
-                    District = "Rruga Bajram Curri",
-                },
-                new Activity
-                {
-                    Method = "Apple pay",
-                    Description = "Credit card linked to apple pay",
-                    Status = "Enabled",
-                    District = "Rruga Hys Popova",
+                    Description = "Card Payment",
+                    District = "Rr. Bajram Kelmendi",
                 },
             };
 

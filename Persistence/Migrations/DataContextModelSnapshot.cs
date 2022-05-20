@@ -14,7 +14,7 @@ namespace Persistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.4");
+                .HasAnnotation("ProductVersion", "5.0.1");
 
             modelBuilder.Entity("Domain.Activity", b =>
                 {
@@ -28,10 +28,10 @@ namespace Persistence.Migrations
                     b.Property<string>("District")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Method")
+                    b.Property<string>("Status")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Status")
+                    b.Property<string>("method")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

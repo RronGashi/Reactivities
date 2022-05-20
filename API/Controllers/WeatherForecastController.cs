@@ -7,7 +7,6 @@ using Microsoft.Extensions.Logging;
 
 namespace API.Controllers
 {
-    //ne kllapa te mesme jane atributet
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
